@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Python
+python/.venv/
+__pycache__/
+*.pyc
+
+# TouchDesigner
+TD/Backup/
+*.toe.autosave
+*.tox.autosave
+
+# Large model dirs (keep out of repo)
+models/
+whisper_models/
+vosk_models/
+
+# Editors
+.vscode/
+.idea/

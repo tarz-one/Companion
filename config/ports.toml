@@ -1,0 +1,8 @@
+[osc]
+host = "127.0.0.1"
+port = 9000
+cooldown = 1.5
+rate = 16000
+window_sec = 6.0
+step_sec = 2.0
+model = "small"
