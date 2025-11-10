@@ -1,0 +1,16 @@
+# Speech-to-Text
+faster-whisper==1.0.3
+# Alternative: vosk==0.3.45
+
+# Audio Processing
+sounddevice==0.4.6
+numpy==1.24.4
+
+# OSC Communication
+python-osc==1.8.3
+
+# Configuration
+toml==0.10.2
+
+# Optional but useful
+pyaudio==0.2.14  # Alternative audio input
