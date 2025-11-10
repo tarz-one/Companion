@@ -2,3 +2,5 @@ faster-whisper
 sounddevice
 python-osc
 toml
+requests==2.31.0
+huggingface-hub>=0.13.0
