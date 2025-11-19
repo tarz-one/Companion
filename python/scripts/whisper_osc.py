@@ -49,17 +49,94 @@ class WhisperOSC:
         
         # Keywords to detect (lowercase)
         self.keywords = {
-            "love": "/keyword/love",
-            "hate": "/keyword/hate",
-            "stop": "/keyword/stop",
-            "light": "/keyword/light",
-            "dark": "/keyword/dark",
-            "move": "/keyword/move",
-            "fast": "/keyword/fast",
-            "slow": "/keyword/slow",
-            "red": "/keyword/red",
-            "blue": "/keyword/blue",
-            "green": "/keyword/green"
+            # LOVE / AFFECTION
+    "love": "/keyword/love",
+    "adore": "/keyword/love",
+    "cherish": "/keyword/love",
+    "enjoy": "/keyword/love",
+    "appreciate": "/keyword/love",
+    "treasure": "/keyword/love",
+    
+    # HATE / NEGATIVITY
+    "hate": "/keyword/hate",
+    "despise": "/keyword/hate",
+    "detest": "/keyword/hate",
+    "loathe": "/keyword/hate",
+    "dislike": "/keyword/hate",
+    
+    # STOP / END
+    "stop": "/keyword/stop",
+    "halt": "/keyword/stop",
+    "cease": "/keyword/stop",
+    "end": "/keyword/stop",
+    "quit": "/keyword/stop",
+    "pause": "/keyword/stop",
+    
+    # DEATH / DYING
+    "die": "/keyword/die",
+    "death": "/keyword/die",
+    "dead": "/keyword/die",
+    "kill": "/keyword/die",
+    "killed": "/keyword/die",
+    "dying": "/keyword/die",
+    
+    # LIGHT / BRIGHTNESS
+    "light": "/keyword/light",
+    "bright": "/keyword/light",
+    "shine": "/keyword/light",
+    "glow": "/keyword/light",
+    "illuminate": "/keyword/light",
+    "sunny": "/keyword/light",
+    "radiant": "/keyword/light",
+    
+    # DARK / DARKNESS
+    "dark": "/keyword/dark",
+    "darkness": "/keyword/dark",
+    "shadow": "/keyword/dark",
+    "black": "/keyword/dark",
+    "dim": "/keyword/dark",
+    "night": "/keyword/dark",
+    
+    
+    # SPEED - SLOW
+    "slow": "/keyword/slow",
+    "slowly": "/keyword/slow",
+    
+ 
+    # EMOTIONS - HAPPY
+    "happy": "/keyword/happy",
+    "joy": "/keyword/happy",
+    "joyful": "/keyword/happy",
+    "glad": "/keyword/happy",
+    "delighted": "/keyword/happy",
+    "pleased": "/keyword/happy",
+    "cheerful": "/keyword/happy",
+    
+    # EMOTIONS - SAD
+    "sad": "/keyword/sad",
+    "sorrow": "/keyword/sad",
+    "grief": "/keyword/sad",
+    "melancholy": "/keyword/sad",
+    "unhappy": "/keyword/sad",
+    "depressed": "/keyword/sad",
+    
+    # EMOTIONS - ANGRY
+    "angry": "/keyword/angry",
+    "anger": "/keyword/angry",
+    "mad": "/keyword/angry",
+    "furious": "/keyword/angry",
+    "rage": "/keyword/angry",
+    "upset": "/keyword/angry",
+    
+    # EMOTIONS - FEAR
+    "fear": "/keyword/fear",
+    "afraid": "/keyword/fear",
+    "scared": "/keyword/fear",
+    "terror": "/keyword/fear",
+    "frightened": "/keyword/fear",
+    "anxiety": "/keyword/fear",
+    
+   
         }
         
         # Thread control
